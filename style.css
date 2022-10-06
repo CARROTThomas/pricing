@@ -1,9 +1,32 @@
-.card>img
+td
 {
-    height: 200px;
+    justify-content: center;
 }
 
-.progress
+ul, li, a
 {
-    margin: 2em;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.centerTitre
+{
+    text-align: center;
+}
+
+.surCoteD
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+a
+{
+    color: rgba(91, 91, 91, 0.895);
+}
+
+img
+{
+    height: 20px;
 }
